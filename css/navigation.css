@@ -1,0 +1,119 @@
+.menuText {
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  font-size: 40px;
+  color: #414141; }
+
+.navigation {
+  margin: 0;
+  font-family: avenir next; }
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F2F1EF;
+  background: -webkit-linear-gradient(#873cff, rgba(135, 60, 255, 0) 0%), -webkit-linear-gradient(-45deg, RGBA(255, 255, 255, 1) 45%, RGBA(242, 241, 239, 1) 0%);
+  overflow-y: hidden;
+  transition: 0.5s; }
+  .overlay a {
+    text-decoration: none;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-weight: 600; }
+
+.overlay-content {
+  position: relative;
+  top: 30vh;
+  width: 100%;
+  text-align: left;
+  margin-top: -40px;
+  margin-left: 25px; }
+  .overlay-content h1 {
+    font-size: 40px;
+    margin: 0px;
+    margin-bottom: 20px; }
+  .overlay-content a {
+    padding: 4%;
+    background: #FE6462;
+    width: 15%;
+    float: left;
+    margin: 1%; }
+    .overlay-content a img {
+      max-height: 60px; }
+  .overlay-content .name {
+    margin-top: 25px;
+    margin-bottom: -10px; }
+  .overlay-content .nav1 {
+    background: #4CC2AA; }
+  .overlay-content .nav1:hover {
+    background: #43AF99; }
+  .overlay-content .nav2 {
+    background: #F2C811; }
+  .overlay-content .nav2:hover {
+    background: #DBB50F; }
+  .overlay-content .nav3 {
+    clear: left; }
+  .overlay-content .nav3:hover {
+    background: #E65A58; }
+  .overlay-content .nav4 {
+    background: #2B80B9; }
+  .overlay-content .nav4:hover {
+    background: #246D9E; }
+
+.left {
+  float: left; }
+
+.right {
+  margin-top: 30px;
+  margin-left: 25%; }
+
+.closebtn {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-size: 50px !important; }
+
+@media screen and (max-width: 950px) {
+  .overlay-content a {
+    width: 20%;
+    float: left;
+    margin: 1%; } }
+@media screen and (max-width: 750px) {
+  .overlay-content a {
+    width: 35%; }
+    .overlay-content a img {
+      max-height: 45px; }
+  .overlay-content .name {
+    margin-top: 10px;
+    margin-bottom: -10px; } }
+@media screen and (max-width: 670px) {
+  .overlay-content {
+    margin-top: 0px; }
+    .overlay-content a {
+      width: 30%;
+      padding: 6%; }
+
+  .menuText {
+    display: none; }
+
+  .closebtn {
+    top: 20px;
+    right: 20px; } }
+@media screen and (max-width: 465px) {
+  .overlay-content {
+    margin-top: -60px; }
+    .overlay-content a {
+      width: 72.5%;
+      padding: 6%;
+      margin-bottom: 10px; } }
+@media screen and (max-height: 450px) {
+  .overlay {
+    overflow-y: auto; } }
