@@ -184,7 +184,7 @@ h1 {
   font-size: 18px;
   color: #8E8E8E;
   font-weight: 100;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: auto;
   margin-top: 10vh; }
   .posts a {
@@ -236,10 +236,19 @@ h1 {
   text-align: right; }
 
 #image2 {
-  background: #84C7CF; }
+  background: #FEDA7E; }
 
 #image3 {
   background: #46B0DA; }
+
+#image4 {
+  background: #FD9064; }
+
+#image5 {
+  background: #DA5653; }
+
+#image6 {
+  background: #84C7CF; }
 
 @media (max-width: 880px) {
   .frontName {
@@ -322,6 +331,9 @@ h1 {
   .webProjectLeft {
     margin-left: 5%;
     margin-right: 5%; } }
+@media (max-width: 950px) {
+  .postTile h1 {
+    font-size: 20px; } }
 @media (max-width: 930px) {
   .webProjectLeft {
     margin-left: 2%;
@@ -351,6 +363,9 @@ h1 {
   #luci {
     height: 500px;
     width: auto; } }
+@media (max-width: 900px) {
+  .postTile {
+    max-width: 46%; } }
 @media (max-width: 800px) {
   .webProjectLeft h1 {
     text-align: left;
@@ -381,6 +396,9 @@ h1 {
     margin-left: 5%;
     height: auto;
     width: 95%; } }
+@media (max-width: 460px) {
+  .postTile {
+    max-width: 100%; } }
 @media (max-width: 400px) {
   .sectionTitle {
     font-size: 45px; }

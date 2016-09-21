@@ -258,7 +258,7 @@ h1 {
     font-size: 18px;
     color: #8E8E8E;
     font-weight: 100;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
     margin-top: 10vh;
 
@@ -338,12 +338,28 @@ h1 {
 
 #image2 {
 
-    background: #84C7CF;
+    background: #FEDA7E;
 }
 
 #image3 {
 
     background: #46B0DA;
+}
+
+#image4 {
+
+    background: #FD9064;
+
+}
+
+#image5 {
+
+    background: #DA5653;
+}
+
+#image6 {
+
+    background: #84C7CF;
 }
 
 //Home Media Queries
@@ -514,15 +530,30 @@ h1 {
 
 }
 
+@media (max-width: 950px) {
+
+    .postTile {
+
+        h1 {
+
+            font-size: 20px;
+        }
+    }
+
+}
+
 @media (max-width: 930px) {
-        .webProjectLeft {
-            margin-left: 2%;
-            margin-right: 2%;
-            margin-top: 200px;
-                img {
-                    height: 300px;
-                    margin-top: 0%;
-                    }
+
+    .webProjectLeft {
+
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 200px;
+
+            img {
+                height: 300px;
+                margin-top: 0%;
+                }
         }
         .webProjectRight {
             margin-left: 2%;
@@ -551,6 +582,15 @@ h1 {
         height: 500px;
         width: auto;
     }
+}
+
+@media (max-width: 900px) {
+
+    .postTile {
+
+        max-width: 46%;
+    }
+
 }
 
 @media (max-width: 800px) {
@@ -594,6 +634,15 @@ h1 {
         }
 
     }
+}
+
+@media (max-width: 460px) {
+
+    .postTile {
+
+        max-width: 100%;
+    }
+
 }
 
 @media (max-width: 400px) {
